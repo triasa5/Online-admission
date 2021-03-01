@@ -1,6 +1,0 @@
-l4 =Label(root,text="Gender", width=20,font=("bold",10),fg="Green")
-l4.place(x=80,y=280)
-var=IntVar()
-Radiobutton(root,text="Male",padx= 5, variable= var, value=1).place(x=235,y=280)
-Radiobutton(root,text="Female",padx= 5, variable= var, value=2).place(x=290,y=280)
-Radiobutton(root,text="Others",padx= 5, variable= var, value=3).place(x=335,y=280)
