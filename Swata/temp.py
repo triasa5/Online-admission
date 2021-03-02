@@ -7,3 +7,13 @@
     r2.pack(side = LEFT)
     r3=Radiobutton(f,text="Other",padx= 10, variable= var, value=3)
     r3.pack(side=LEFT)
+    list_cat=[ 'WBBSE' ,'CBSE' , 'ISC' ,'Other']
+    c=StringVar()   
+    droplist=OptionMenu(new,c, *list_cat )
+    droplist.config(width=45)
+    droplist.grid(row=19,column=1)
+    list_2=[ 'WBCHSE' ,'CBSE' , 'ISC' ,'Other']
+    c1=StringVar()   
+    drop=OptionMenu(new,c1, *list_2 )
+    droplist.config(width=45)
+    drop.grid(row=23,column=1)
