@@ -1,4 +1,5 @@
-
+# To run this program, you need to have Python 3 and the following modules pre-installed. Download the .png files from the repository and keep them in same directory.
+# Use this program for academic purposes only
 
 from win32api import GetSystemMetrics
 from tkinter import *
@@ -983,3 +984,7 @@ frame1()
 
 app.mainloop()
 
+
+
+
+# Copyright STCET Group
