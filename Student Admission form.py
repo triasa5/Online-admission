@@ -712,7 +712,7 @@ def frame3():
     e3.pack(ipadx = 30)
     e4 = Label(center_frame3, text = 'Mail ID: stcet2000@gmail.com')
     e4.pack(ipadx = 30)
-    e5 = Label(center_frame3, text = 'STUDENT REGISTRATION FORM ', fg='blue', font = 13)
+    e5 = Label(center_frame3, text = 'ADMIN AREA ', fg='blue', font = 13)
     e5.pack(ipadx = 30, ipady = 10)
     
     button1 = Button(center_frame3, text = 'New Registration', command = frame4, font = ('Arial', 14), bg = 'SteelBlue', fg = 'white', activebackground = 'pale turquoise', activeforeground = 'black')
@@ -779,7 +779,7 @@ def frame2():
     e3.pack(ipadx = 30)
     e4 = Label(center_frame2, text = 'Mail ID: stcet2000@gmail.com')
     e4.pack(ipadx = 30)
-    e5 = Label(center_frame2, text = 'STUDENT REGISTRATION FORM ', fg = 'blue', font = 13)
+    e5 = Label(center_frame2, text = 'ADMIN ENTRY ', fg = 'blue', font = 13)
     e5.pack(ipadx = 30, ipady = 10)
     e6 = Label(center_frame2, text = "Enter Office ID", font = 10)
     e6.place(x = 200, y = 380)
@@ -838,7 +838,7 @@ def frame1_2():
     e3.pack(ipadx = 30)
     e4 = Label(center_frame1_2, text = 'Mail ID: stcet2000@gmail.com')
     e4.pack(ipadx = 30)
-    e5 = Label(center_frame1_2, text = 'STUDENT REGISTRATION FORM ', fg = 'blue', font = 13)
+    e5 = Label(center_frame1_2, text = 'ADMIN REGISTRATION ', fg = 'blue', font = 13)
     e5.pack(ipadx = 30, ipady = 10)
     
     e6 = Label(center_frame1_2, text = "Enter Office ID", font = 10)
@@ -855,7 +855,7 @@ def frame1_2():
     E2 = Entry(center_frame1_2, show = '*', textvariable = AdminPassword)
     E2.place(x = 385, y = 408)
     
-    e8 = Label(center_frame1_2, text = "Re-Enter Password", font = 10)
+    e8 = Label(center_frame1_2, text = "Confirm Password", font = 10)
     e8.place(x = 200, y = 426)
     
     global E3
