@@ -2,13 +2,13 @@
 This is an academic project for 2nd year CSE Students of STCET
 
 ### The contributors to this project are:
-1. Arnab Das
-2. Triasa Munshi
-3. Madhurima Ranjit
-4. Aviree Mukhopadhyay
-5. Tiyasha Ghosal
-6. Subham Tripathi
-7. Swata Saha
+1. Triasa Munshi
+2. Madhurima Ranjit
+3. Aviree Mukhopadhyay
+4. Tiyasha Ghosal
+5. Subham Tripathi
+6. Swata Saha
+7. Arnab Das
 
 ### Screenshots of the working application:
 ![6](https://user-images.githubusercontent.com/64526349/113034648-f7585e00-91af-11eb-9d7f-af253d3c366f.jpg)
