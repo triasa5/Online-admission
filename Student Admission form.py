@@ -959,6 +959,7 @@ AdminPassword = StringVar()
 ConfirmPassword = StringVar()
 
 def adjust_image(event):
+    global image_copy, image, photo
     new_width = event.width
     new_height = event.height
     image = image_copy.resize((new_width, new_height))
